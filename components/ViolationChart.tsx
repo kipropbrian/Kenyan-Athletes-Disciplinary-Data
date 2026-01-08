@@ -35,9 +35,9 @@ const ViolationChart: React.FC<ViolationChartProps> = ({ data }) => {
         <Pie
           data={chartData}
           cx="50%"
-          cy="50%"
-          innerRadius={60}
-          outerRadius={100}
+          cy="45%"
+          innerRadius={70}
+          outerRadius={120}
           paddingAngle={5}
           dataKey="value"
         >
@@ -49,11 +49,12 @@ const ViolationChart: React.FC<ViolationChartProps> = ({ data }) => {
           contentStyle={{ borderRadius: '12px', border: 'none', boxShadow: '0 10px 15px -3px rgba(0,0,0,0.1)' }}
         />
         <Legend 
-          layout="vertical" 
-          verticalAlign="middle" 
-          align="right"
+          layout="horizontal" 
+          verticalAlign="bottom" 
+          align="center"
           iconType="circle"
-          formatter={(value) => <span className="text-xs font-medium text-slate-600 ml-2">{value}</span>}
+          wrapperStyle={{ paddingTop: '20px' }}
+          formatter={(value) => <span className="text-[11px] font-medium text-slate-600 ml-1">{value}</span>}
         />
       </PieChart>
     </ResponsiveContainer>

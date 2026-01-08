@@ -4,6 +4,7 @@ export interface ProvisionalSuspension {
   respondent: string;
   details: string;
   status: string;
+  imageUrl?: string;
 }
 
 export interface FirstInstanceDecision {
@@ -11,6 +12,7 @@ export interface FirstInstanceDecision {
   respondent: string;
   violation: string;
   outcome: string;
+  imageUrl?: string;
 }
 
 export interface PendingAppeal {
@@ -18,6 +20,7 @@ export interface PendingAppeal {
   appellant: string;
   summary: string;
   status: string;
+  imageUrl?: string;
 }
 
 export interface AppealDecision {
@@ -25,6 +28,7 @@ export interface AppealDecision {
   respondent: string;
   adrv: string;
   outcome: string;
+  imageUrl?: string;
 }
 
 export interface IntegrityData {

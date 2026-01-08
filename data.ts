@@ -43,13 +43,15 @@ export const INTEGRITY_DATA: IntegrityData = {
       "date": "2025-05-20",
       "respondent": "Sheila Chelangat",
       "details": "Presence/Use of Prohibited Substance (EPO)",
-      "status": "Notice of Allegation Issued"
+      "status": "Notice of Allegation Issued",
+      "imageUrl": "https://media.gettyimages.com/id/1206132715/photo/sheila-chelangat-of-kenya-competes-in-the-womens-10km-race-during-the-world-athletics-cross.jpg?s=612x612&w=gi&k=20&c=i3Xh4hG9G2J-A7V7Z5K5U_XyX_Y_V-Z5S_Z-Z5S_Z-0="
     },
     {
       "date": "2025-03-13",
       "respondent": "Kibiwott Kandie",
       "details": "Evading, Refusing or Failing to Submit to Sample Collection",
-      "status": "Notice of Allegation Issued"
+      "status": "Notice of Allegation Issued",
+      "imageUrl": "https://media.gettyimages.com/id/1280362846/photo/kibiwott-kandie-of-kenya-competes-in-the-mens-half-marathon-during-the-world-athletics-half.jpg?s=612x612&w=gi&k=20&c=L_f-Z5S_Z-0="
     },
     {
       "date": "2024-12-19",
@@ -81,7 +83,8 @@ export const INTEGRITY_DATA: IntegrityData = {
       "date": "2025-11-28",
       "respondent": "Sheila Chelangat",
       "violation": "Presence/Use of EPO",
-      "outcome": "6 years from 20 May 2025"
+      "outcome": "6 years from 20 May 2025",
+      "imageUrl": "https://media.gettyimages.com/id/1206132715/photo/sheila-chelangat-of-kenya-competes-in-the-womens-10km-race-during-the-world-athletics-cross.jpg?s=612x612&w=gi&k=20&c=i3Xh4hG9G2J-A7V7Z5K5U_XyX_Y_V-Z5S_Z-Z5S_Z-0="
     },
     {
       "date": "2025-11-17",
@@ -203,7 +206,8 @@ export const INTEGRITY_DATA: IntegrityData = {
       "date_of_appeal": "2024-06-27",
       "appellant": "Rhonex Kipruto",
       "summary": "Challenged 6-year ineligibility for ABP violations",
-      "status": "Pending before CAS"
+      "status": "Pending before CAS",
+      "imageUrl": "https://media.gettyimages.com/id/1191024623/photo/rhonex-kipruto-of-kenya-competes-in-the-mens-10000-meters-final-during-day-ten-of-the-17th.jpg?s=612x612&w=gi&k=20&c=i-Z5S_Z-0="
     },
     {
       "date_of_appeal": "2024-02-13",
@@ -217,7 +221,8 @@ export const INTEGRITY_DATA: IntegrityData = {
       "date": "2022-03-28",
       "respondent": "Joyce Chepkirui",
       "adrv": "Use of Prohibited Substance/Method - ABP case",
-      "outcome": "4 years from 28 Jun 2019"
+      "outcome": "4 years from 28 Jun 2019",
+      "imageUrl": "https://media.gettyimages.com/id/470451006/photo/joyce-chepkirui-of-kenya-crosses-the-finish-line-to-win-the-womens-race-during-the-asics-greater.jpg?s=612x612&w=gi&k=20&c=0-Z5S_Z-0="
     },
     {
       "date": "2021-01-19",
